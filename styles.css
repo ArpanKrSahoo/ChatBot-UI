@@ -5,15 +5,15 @@
   --primary-accent-hover: #7c3aed;
   --primary-accent-light: #a78bfa;
   
-  /* Light Theme Colors */
-  --light-bg-primary: #ffffff;
-  --light-bg-secondary: #f8fafc;
-  --light-bg-tertiary: #f1f5f9;
-  --light-text-primary: #0f172a;
-  --light-text-secondary: #475569;
-  --light-text-muted: #64748b;
-  --light-border: #e2e8f0;
-  --light-border-hover: #cbd5e1;
+  /* Light Theme Colors (Updated) */
+  --light-bg-primary: #FFFADC;
+  --light-bg-secondary: #B6F500;
+  --light-bg-tertiary: #A4DD00;
+  --light-text-primary: #98CD00;
+  --light-text-secondary: rgb(255, 250, 220);
+  --light-text-muted: rgb(182, 245, 0);
+  --light-border: rgb(164, 221, 0);
+  --light-border-hover: rgb(152, 205, 0);
   
   /* Dark Theme Colors */
   --dark-bg-primary: #0f0e1a;
@@ -101,6 +101,7 @@
   --accent-color: var(--primary-accent);
   --accent-hover: var(--primary-accent-hover);
 }
+
 
 /* Dark Theme Override */
 html.dark {
